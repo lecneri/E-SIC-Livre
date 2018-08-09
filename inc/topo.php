@@ -9,7 +9,7 @@ header("Content-Type: text/html; charset=UTF-8", true);
  modificá-lo sob os termos da Licença GPL2.
 ***********************************************************************************/
 
-include("config.php");
+require_once __DIR__ . "/config.php";
 ?>
 <!DOCTYPE html>
 <html>
